@@ -1,3 +1,3 @@
 #!/bin/bash
 
-date > /tmp/date.txt
+date > /tmp/date_f.txt
