@@ -9,7 +9,7 @@ pipeline {
         stage('date') {
             steps {
                 echo 'date to file'
-                sh 'date > /tmp/date.txt'
+                sh date.sh
             }
         }
         stage('Test') {
