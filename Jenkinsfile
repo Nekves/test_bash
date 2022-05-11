@@ -9,7 +9,10 @@ pipeline {
         stage('date') {
             steps {
                 echo 'date to file'
-                sh './date.sh'
+                sh 'env'
+                sh 'pwd'
+                sh 'ls -la'
+                //sh 'bash ./date.sh'
             }
         }
         stage('Test') {
