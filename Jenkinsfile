@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('date') {
             steps {
+		echo 'add webhook'
                 echo 'date to file'
                 sh 'env'
                 sh 'pwd'
